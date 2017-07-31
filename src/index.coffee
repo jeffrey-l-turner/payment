@@ -61,7 +61,7 @@ cards = [
   }
   {
       type: 'mastercard'
-      pattern: /^(5[1-5]|677189)|^(222[1-9]|2[3-6]\d{2}|27[0-1]\d|2720)/
+      pattern: /^5[1-5]\d{14}$|^2(?:2(?:2[1-9]|[3-9]\d)|[3-6]\d\d|7(?:[01]\d|20))\d{12}$/
       format: defaultFormat
       length: [16]
       cvcLength: [3]
